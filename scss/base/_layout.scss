@@ -1,0 +1,36 @@
+// 排版樣式
+.d-flex {
+    display: flex;
+  }
+  
+  .ai-center {
+    align-items: center;
+  }
+  
+  .gap-24 {
+    gap: 24px;
+  }
+  
+  .mb-36 {
+    margin-bottom: 36px;
+  }
+  
+  .mb-16 {
+    margin-bottom: 16px;
+  }
+  
+  .mb-4 {
+    margin-bottom: 4px;
+  }
+
+  // 共用結構
+body {
+  font-family: "Bruno Ace SC", cursive;
+  color: white;
+  line-height: 1.5;
+}
+
+.container {
+  width: 1296px;
+  margin: 0 auto;
+}

@@ -1,0 +1,21 @@
+// SECTION-ABOUT
+.section-about {
+    gap: 134px;
+    padding: 160px 0;
+  
+    .experience {
+      flex-wrap: wrap;
+      flex-shrink: 1;
+  
+      &-card {
+        width: 306px;
+        padding: 16px;
+        border: 1px solid $gray;
+        box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.08);
+      }
+    }
+    .about-content {
+      width: 526px;
+      flex-shrink: 0;
+    }
+  }
