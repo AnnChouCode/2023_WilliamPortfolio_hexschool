@@ -1,10 +1,8 @@
 // SECTION-ABOUT
 .section-about {
-    gap: 134px;
     padding: 160px 0;
   
     .experience {
-      flex-wrap: wrap;
       flex-shrink: 1;
   
       &-card {
@@ -15,7 +13,7 @@
       }
     }
     .about-content {
-      width: 526px;
+      max-width: 526px;
       flex-shrink: 0;
     }
   }

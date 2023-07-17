@@ -1,6 +1,14 @@
 // 排版樣式
-.d-flex {
+  .d-flex {
     display: flex;
+  }
+
+  .f-jcsb{
+    justify-content: space-between;
+  }
+
+  .f-wrap{
+    flex-wrap: wrap;
   }
   
   .ai-center {
@@ -31,6 +39,6 @@ body {
 }
 
 .container {
-  width: 1296px;
+  max-width: 1296px;
   margin: 0 auto;
 }

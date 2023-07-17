@@ -107,6 +107,8 @@ a {
 
 img {
   vertical-align: middle;
+  max-width: 100%;
+  height: auto;
 }
 
 .btn {
@@ -128,6 +130,14 @@ img {
 
 .d-flex {
   display: flex;
+}
+
+.f-jcsb {
+  justify-content: space-between;
+}
+
+.f-wrap {
+  flex-wrap: wrap;
 }
 
 .ai-center {
@@ -157,7 +167,7 @@ body {
 }
 
 .container {
-  width: 1296px;
+  max-width: 1296px;
   margin: 0 auto;
 }
 
@@ -183,18 +193,16 @@ body {
   background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true");
 }
 .section-introduce .introduce-content {
-  margin-right: 24px;
+  max-width: 526px;
 }
 .section-introduce .introduce-content p {
   margin-bottom: 32px;
 }
 
 .section-about {
-  gap: 134px;
   padding: 160px 0;
 }
 .section-about .experience {
-  flex-wrap: wrap;
   flex-shrink: 1;
 }
 .section-about .experience-card {
@@ -204,7 +212,7 @@ body {
   box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.08);
 }
 .section-about .about-content {
-  width: 526px;
+  max-width: 526px;
   flex-shrink: 0;
 }
 
@@ -220,7 +228,6 @@ body {
 }
 .section-contact .contact-icon img {
   width: 162px;
-  height: 162px;
 }
 
 .section-project {
@@ -235,7 +242,10 @@ body {
 .section-project .seemore-info {
   flex-direction: column;
   align-items: flex-start;
-  justify-content: space-between;
+}
+.section-project img {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .section-footer {

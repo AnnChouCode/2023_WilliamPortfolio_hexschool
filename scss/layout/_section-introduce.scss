@@ -1,13 +1,13 @@
 // SECTION INTRODUCE
 .section-introduce {
-    padding: 160px 0;
-    background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true");
-  
-    .introduce-content {
-      margin-right: 24px;
-  
-      p {
-        margin-bottom: 32px;
-      }
+  padding: 160px 0;
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true");
+
+  .introduce-content {
+    max-width: 526px;
+
+    p {
+      margin-bottom: 32px;
     }
   }
+}
